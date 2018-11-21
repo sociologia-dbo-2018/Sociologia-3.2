@@ -1,0 +1,69 @@
+extends master.pug
+block head
+    title Reportagem de casos
+    link(rel="stylesheet" href="../css/report.css")
+block content
+    div.form
+        div.material
+            input(type="checkbox") Violência Material
+            div.next#material
+                input(type="checkbox") Assalto
+                input(type="checkbox") Tentativa de Assalto
+                input(type="checkbox") Furto
+                input(type="checkbox") Dano a propriedade
+        div.fisica
+            input(type="checkbox") Violência Física
+            div.next#fisica
+                input(type="checkbox") Sequestro
+                input(type="checkbox") Tentativa de Sequestro
+                input(type="checkbox") Agressão com arma de fogo
+                input(type="checkbox") Agressão com arma branca
+                input(type="checkbox") Agressão com outros objetos 
+                input(type="checkbox") Agressão física
+                input(type="checkbox") Tentativa de assassinato
+                input(type="checkbox") Assassinato
+                input(type="checkbox") Briga
+                input(type="checkbox") Cárcere privado
+                input(type="checkbox") Tortura
+        div.machismo
+            input(type="checkbox") Violência Sexual (Machismo)
+            div.next#machismo
+                input(type="checkbox") Estupro
+                input(type="checkbox") Tentativa de estupro
+                input(type="checkbox") Assédio sexual
+                input(type="checkbox") Assédio moral
+                input(type="checkbox") Agressão física
+                input(type="checkbox") Agressão verbal
+                input(type="checkbox") Cárcere privado
+                input(type="checkbox") Tentativa de assassinato
+                input(type="checkbox") Assassinato
+                input(type="checkbox") Ameaça
+                input(type="checkbox") Tortura
+                input(type="checkbox") Ciberbullying
+                input(type="checkbox") Difamação
+        div.lgbtFobia
+            input(type="checkbox") Violência Sexual (LGBTfobia)
+            div.next#lgbtFobia
+                input(type="checkbox") Estupro
+                input(type="checkbox") Tentativa de estupro
+                input(type="checkbox") Assédio sexual
+                input(type="checkbox") Assédio moral
+                input(type="checkbox") Agressão física
+                input(type="checkbox") Agressão verbal
+                input(type="checkbox") Cárcere privado
+                input(type="checkbox") Tentativa de assassinato
+                input(type="checkbox") Assassinato
+                input(type="checkbox") Ameaça
+                input(type="checkbox") Tortura
+                input(type="checkbox") Ciberbullying
+                input(type="checkbox") Difamação
+        div.psicologica
+            input(type="checkbox") Violência Psicologica
+            div.next#psicologica
+                input(type="checkbox") Assédio moral
+                input(type="checkbox") Agressão verbal
+                input(type="checkbox") Ameaças
+                input(type="checkbox") Ciberbullying
+                input(type="checkbox") Bullying
+                input(type="checkbox") Difamação moral
+block foot.sugestion
